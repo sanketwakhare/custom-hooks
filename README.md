@@ -1,4 +1,4 @@
-# The custom react hooks which can be useful in evry projects
+# The custom react hooks which can be useful in every projects
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
