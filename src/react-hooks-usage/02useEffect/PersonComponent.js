@@ -7,6 +7,13 @@ export const PersonComponent = () => {
     const [age, setAge] = useState(21);
 
     useEffect(() => {
+        console.log('onMount');
+        return () => {
+            console.log('onUnMount');
+        }
+    }, []);
+
+    useEffect(() => {
         // use Effect gets called every time the dependency state changes
         console.log('name changed');
         // here name is dependency state
