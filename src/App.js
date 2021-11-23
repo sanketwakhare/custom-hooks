@@ -1,5 +1,6 @@
 import './App.css';
 import { ToggleComponent } from './hooks/01useToggle/ToggleComponent';
+import { Counter } from './react-hooks-usage/01useState/Counter';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           Learn React Hooks
         </p>
         <ToggleComponent />
+        <Counter />
       </header>
     </div>
   );

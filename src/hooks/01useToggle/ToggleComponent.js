@@ -7,6 +7,7 @@ export const ToggleComponent = () => {
 
     return (
         <div>
+            useToggle Demo
             <div>{value.toString()}</div>
             <button onClick={() => toggleValue()}>Toggle</button>
             <button onClick={() => toggleValue(true)}>True</button>
