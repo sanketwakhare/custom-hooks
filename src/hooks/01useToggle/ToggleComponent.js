@@ -10,7 +10,7 @@ export const ToggleComponent = () => {
             <button onClick={() => toggleValue()}>Toggle</button>
             <button onClick={() => toggleValue(true)}>True</button>
             <button onClick={() => toggleValue(false)}>False</button>
-            <div>{value.toString()}</div>
+            <p>value: {value.toString()}</p>
         </div >
     )
 }
