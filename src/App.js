@@ -1,17 +1,15 @@
 import './App.css';
 import { ToggleComponent } from './hooks/01useToggle/ToggleComponent';
-import { Counter } from './react-hooks-usage/01useState/Counter';
+import { CounterComponent } from './react-hooks-usage/01useState/CounterComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Learn React Hooks
-        </p>
-        <ToggleComponent />
-        <Counter />
-      </header>
+    <div>
+      <p>
+        Learn React Hooks
+      </p>
+      <ToggleComponent />
+      <CounterComponent />
     </div>
   );
 }
