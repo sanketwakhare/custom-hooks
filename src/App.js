@@ -6,8 +6,8 @@ import { PersonComponent } from './react-hooks-usage/02useEffect/PersonComponent
 function App() {
   return (
     <div>
-      <p>
-        Learn React Hooks
+      <p className="center">
+        Useful React Hooks
       </p>
       <ToggleComponent />
       <CounterComponent />

@@ -24,3 +24,9 @@ button:hover {
   --color-background-primary: white;
   --color-border-primary: rgba(129, 16, 194, 10);
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
