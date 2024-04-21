@@ -1,9 +1,4 @@
-* {
-  color: var(--color-text-primary);
-}
-
 button {
-  background-color: var(--color-background-primary);
   margin: 0.2rem;
   padding: 0.2rem;
 }
@@ -13,16 +8,9 @@ button:hover {
 }
 
 .box--component {
-  border: 0.15rem solid var(--color-border-primary);
+  border: 0.15rem solid lavender;
   margin: 1rem;
   padding: 1rem;
-}
-
-:root {
-  --color-text-primary: black;
-  --color-text-secondary: grey;
-  --color-background-primary: white;
-  --color-border-primary: rgba(129, 16, 194, 10);
 }
 
 .center {

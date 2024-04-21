@@ -1,21 +1,23 @@
-import './App.css';
-import { ToggleComponent } from './hooks/01useToggle/ToggleComponent';
-import { CounterComponent } from './react-hooks-usage/01useState/CounterComponent';
-import { PersonComponent } from './react-hooks-usage/02useEffect/PersonComponent';
-import { UseMemoComponent } from './react-hooks-usage/03useMemo/UseMemoComponent';
-
+import "./App.css";
+import { ThemeProvider } from "./hooks/useTheme/useTheme";
+import { ToggleComponent } from "./hooks/useToggle/ToggleComponent";
+import { PersonComponent } from "./react-hooks-usage/useEffect/PersonComponent";
+import { UseMemoComponent } from "./react-hooks-usage/useMemo/UseMemoComponent";
+import { CounterComponent } from "./react-hooks-usage/useState/CounterComponent";
+import UseThemeUsage from "./react-hooks-usage/useTheme/useThemeUsage";
 
 function App() {
   return (
-    <div>
-      <p className="center">
-        Useful React Hooks
-      </p>
-      <ToggleComponent />
-      <CounterComponent />
-      <PersonComponent />
-      <UseMemoComponent />
-    </div>
+    <ThemeProvider>
+      <div>
+        <p className="center">Useful React Hooks</p>
+        <ToggleComponent />
+        <CounterComponent />
+        <PersonComponent />
+        <UseMemoComponent />
+        <UseThemeUsage />
+      </div>
+    </ThemeProvider>
   );
 }
 
