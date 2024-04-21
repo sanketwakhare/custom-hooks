@@ -5,7 +5,7 @@ const UseThemeUsage = () => {
 
   return (
     <div className="box--component">
-      <p>useTheme demo</p>
+      <h3>useTheme</h3>
       <div>{theme.toString()}</div>
       <button onClick={toggleTheme}>Toggle Theme</button>
     </div>

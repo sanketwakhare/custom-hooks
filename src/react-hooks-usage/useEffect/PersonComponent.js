@@ -40,7 +40,7 @@ export const PersonComponent = () => {
 
   return (
     <div className="box--component">
-      <p>useEffect demo</p>
+      <h3>useEffect</h3>
       Name:{" "}
       <input
         type="text"

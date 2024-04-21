@@ -17,7 +17,7 @@ export const CounterComponent = () => {
 
   return (
     <div className="box--component">
-      <p>useState demo</p>
+      <h3>useState</h3>
       <button onClick={handleDecrement}>Decrement</button>
       <button onClick={handleIncrement}>Increment</button>
       <p>Count {count} </p>
