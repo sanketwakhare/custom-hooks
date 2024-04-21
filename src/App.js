@@ -3,6 +3,7 @@ import { ThemeProvider } from "./hooks/useTheme/ThemeContext";
 import { ToggleComponent } from "./hooks/useToggle/ToggleComponent";
 import { PersonComponent } from "./react-hooks-usage/useEffect/PersonComponent";
 import { UseMemoComponent } from "./react-hooks-usage/useMemo/UseMemoComponent";
+import UseRefComponent from "./react-hooks-usage/useRef/UseRefComponent";
 import { CounterComponent } from "./react-hooks-usage/useState/CounterComponent";
 import UseThemeUsage from "./react-hooks-usage/useTheme/useThemeUsage";
 
@@ -16,6 +17,7 @@ function App() {
         <PersonComponent />
         <UseMemoComponent />
         <UseThemeUsage />
+        <UseRefComponent />
       </div>
     </ThemeProvider>
   );
