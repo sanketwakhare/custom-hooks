@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 const lightThemeStyles = {
   backgroundColor: "white",
-  color: "black",
+  color: "#333",
 };
 
 const darkThemeStyles = {
-  backgroundColor: "gray",
+  backgroundColor: "#333",
   color: "white",
 };
 
