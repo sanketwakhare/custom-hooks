@@ -1,5 +1,5 @@
 import "./App.css";
-import { ThemeProvider } from "./hooks/useTheme/useTheme";
+import { ThemeProvider } from "./hooks/useTheme/ThemeContext";
 import { ToggleComponent } from "./hooks/useToggle/ToggleComponent";
 import { PersonComponent } from "./react-hooks-usage/useEffect/PersonComponent";
 import { UseMemoComponent } from "./react-hooks-usage/useMemo/UseMemoComponent";
